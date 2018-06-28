@@ -19,6 +19,6 @@ function currentLine(katzDeliLine) {
       output.concat(`${i+1}. `)
       output.concat(katzDeliLine[i])
     }
-  return output
+  return (`The line is currently: ${output}`)
   }
 }
